@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "ai-thumbnails",
+    "libraryId": "a6c26aea-a8d4-4aba-b3c2-26a4d72078c5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ai-thumbnails",
+    "solutionShortDescription": "ai-thumbnails description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

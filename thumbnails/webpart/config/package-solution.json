@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ai-thumbnails-client-side-solution",
+    "id": "a6c26aea-a8d4-4aba-b3c2-26a4d72078c5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "CSOM Tests",
+        "scope": "user_impersonation"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.Read.All"
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "ai-thumbnails description"
+      },
+      "longDescription": {
+        "default": "ai-thumbnails description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ai-thumbnails Feature",
+        "description": "The feature that activates elements of the ai-thumbnails solution.",
+        "id": "be54dca8-cc7e-4121-9f0e-9281ffa0275a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ai-thumbnails.sppkg"
+  }
+}
